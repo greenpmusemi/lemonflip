@@ -1121,6 +1121,7 @@ team
 
 .team-item:hover .team-content .team-info {
   margin-left: 30px;
+  text-align: center;
 }
 
 .team-item i {
@@ -1189,6 +1190,12 @@ team
   color: #777;
   letter-spacing: 0.6px;
   line-height: 26px;
+}
+
+.team-content img{
+  border-radius: 20%;
+  padding: 5% 5% 5% 5%;
+  width: 70%;
 }
 
 /* 

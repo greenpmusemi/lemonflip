@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SPI Driver
+title: Low Noise Amplifier
 ---
 <!-- Product Cards -->
 <!-- <section> 
@@ -30,7 +30,7 @@ title: SPI Driver
         <div class="row">
             <div class="col-lg-12">
                 <div class="center-heading">
-                    <h2 class="section-title">SPI Driver</h2>
+                    <h2 class="section-title">Low Noise Amplifier</h2>
                 </div>
             </div>
 
@@ -82,12 +82,8 @@ title: SPI Driver
             <div class="col-lg-6">
                 <div class="center-text">
                     <h3 class="section-title">Description</h3>
-                    <p>This is a CMOS based serial to parallel converter IC with dual mode for positive and negative
-                        voltage outputs. It comprises of a 32-bit register and provides the functionality to choose
-                        between 6/8-bit output words. Positive and digital mode is selected with the help of a MUX. The
-                        chip has an on-chip LDO for +5V to +3V conversion and a negative voltage generation block with
-                        on-chip oscillator. During power-saver mode, the oscillator frequency is reduced drastically to
-                        sustain negative voltage at No Load condition.</p>
+                    <p>This is a SISO, stand-alone, fully on-chip wide band LNA with integrated buffer. It incorporates
+                        feedforward noise cancelation method to eliminate the requirement of an external BALUN.</p>
                 </div>
             </div>
 
@@ -100,10 +96,13 @@ title: SPI Driver
                             <p>
                             <h5>
                                 <ul>
-                                    <li>Single supply +5V</li>
-                                    <li>CMOS/LVCMOS control logic</li>
-                                    <li>6/8 bit Serial to Parallel interface (SPI-Digital)</li>
-                                    <li>Digital Serial input/output (+3.3/0 V)</li>
+                                    <li>Maximum power gain of 20.5 dB</li>
+                                    <li>NF of 2-2.5 dB</li>
+                                    <li>3 dB bandwidth from 0.04 GHz to 2.2 GHz</li>
+                                    <li>Third-order intermodulation intercept point (IIP3) of −5 dBm </li>
+                                    <li>Current consumption of 25 mA (including buffer)</li>
+                                    <li>1dBc(O/P) is 0 dBm</li>
+                                    <li>OIP3 is 12-15 dBm</li>
                                 </ul>
                             </h5>
                             </p>
@@ -112,11 +111,14 @@ title: SPI Driver
                             <p>
                             <h5>
                                 <ul>
-                                    <li>Dual mode output (+3.3/0 V) or (-3.3/0 V) for GaAs attenuator or phase shifter
-                                        control</li>
-                                    <li>On-chip negative voltage generation</li>
-                                    <li>Integrated negative output voltage for GaAs gate driver</li>
-                                    <li>Power-saver mode</li>
+                                    <li>Supply voltage 1.2V</li>
+                                    <li>Power consumed is 30mW</li>
+                                    <li>For Low Band: C1=C2= 470pF for 10 MHz to 2 GHz</li>
+                                    <li>For High Band: C1=C2= 4.4pF for 500 MHz to 3.5 GHz</li>
+                                    <li>QFN module C1=100pF C2= 10pF</li>
+                                    <li>Die Dimension: 900µm x 900µm with pads</li>
+                                    <li>CMOS 65nm technology</li>
+                                    <li>A modified DC to 2.6GHz version is also available</li>
                                 </ul>
                             </h5>
                             </p>
@@ -136,22 +138,22 @@ title: SPI Driver
         <div class="row">
             <div class="col-lg-6 col-xl-6">
                 <div class="product-image">
-                    <img src="./assets/images/chip/spi/1.jpg">
+                    <img src="./assets/images/chip/lna/1.png">
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6">
                 <div class="product-image">
-                    <img src="./assets/images/chip/spi/2.jpg">
+                    <img src="./assets/images/chip/lna/2.png">
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6">
                 <div class="product-image">
-                    <img src="./assets/images/chip/spi/3.png">
+                    <img src="./assets/images/chip/lna/3.png">
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6">
                 <div class="product-image">
-                    <img src="./assets/images/chip/spi/4.png">
+                    <img src="./assets/images/chip/lna/4.png">
                 </div>
             </div>
         </div>

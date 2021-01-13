@@ -1593,3 +1593,11 @@ preloader
     opacity: 0;
   }
 }
+
+.product-image img{
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin:3%;
+  height: 250px;
+}

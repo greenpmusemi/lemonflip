@@ -1643,3 +1643,12 @@ code {
   padding: 10px;
   background-color: #1e1e1e;
 }
+
+@media (max-width: 600px) {
+  .heavy{
+   text-align: center;
+   font-size: 15px;
+   letter-spacing: 8px;
+   max-width: 100vw;
+  }
+}

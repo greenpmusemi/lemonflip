@@ -632,8 +632,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
-  background-repeat: no-repeat;
+  background-color: #021d75;
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -1611,4 +1610,28 @@ preloader
 
 ::-webkit-scrollbar-thumb {
   background: #8861E8;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.st0 {
+  fill: none;
+  stroke: rgb(181, 178, 162);
+  stroke-miterlimit: 10;
+}
+.st1 {
+  fill: none;
+  stroke: rgb(212, 65, 48);
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.videoElement {
+	width: 300px;
+	height: 175px;
+	background-color: #666;
 }

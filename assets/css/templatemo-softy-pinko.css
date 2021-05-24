@@ -1635,3 +1635,11 @@ code {
 	height: 175px;
 	background-color: #666;
 }
+
+.heavy { 
+  font: bold 30px sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #1e1e1e;
+}
